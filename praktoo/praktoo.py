@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-from calendar import c
-import math
-=======
 import math
 
 # Kirjuta enda esimene programm, mis väljastab käsureale teksti: “Tere, maailm!”. 
@@ -60,6 +56,13 @@ import math
 # u = float(input("mis oli puu ümbermõõt")) # märkasin, et int läheb esimesena.... 
 # lm = u/math.pi
 # print("puu läbimõõt on", int(lm))
+
+VIIES ÜLESANNE
+
+a=int(input("sisesta esimene külg"))
+b=int(input("sisesta teine külg"))
+d = a + b
+print("ristküliku diagonaal on",d,"m pikk.")
 
 VIIES ÜLESANNE
 
