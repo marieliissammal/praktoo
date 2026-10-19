@@ -57,19 +57,12 @@ import math
 # lm = u/math.pi
 # print("puu läbimõõt on", int(lm))
 
-VIIES ÜLESANNE
+# VIIES ÜLESANNE
 
-a=int(input("sisesta esimene külg"))
-b=int(input("sisesta teine külg"))
-d = a + b
-print("ristküliku diagonaal on",d,"m pikk.")
-
-VIIES ÜLESANNE
-
-a=int(input("sisesta esimene külg"))
-b=int(input("sisesta teine külg"))
-d = a + b
-print("ristküliku diagonaal on",d,"m pikk.")
+# a=int(input("sisesta esimene külg"))
+# b=int(input("sisesta teine külg"))
+# d = a + b
+# print("ristküliku diagonaal on",d,"m pikk.")
 
 # Kirjuta enda esimene programm, mis väljastab käsureale teksti: “Tere, maailm!”. 
 # Küsi kasutaja nimi ja muuda tekst, et ta näeks välja nii: “Tere, maailm! Tervitan sind Mati”, kui kasutaja nimi on Mati.
@@ -165,3 +158,9 @@ from random import *
 # print("su kolmnurk ümbermõõt on", abc, "cm")
 
 # viimane ülesanne
+
+try:
+    vanus = int(input("Sisesta vanus: "))
+    print("Järgmisel aastal oled", vanus + 1)
+except ValueError:
+    print("See ei olnud täisarv!")
